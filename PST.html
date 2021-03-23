@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <!-- this scales the content to display nicely on mobiles/tablets -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Mental Resilience Training RAPTC</title>
+
+    <!-- Bootstrap and FontAwesome cdn links -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- our custom styles -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- ==== NAV BAR (BOOTSTRAP) ===== -->
+    <!-- use the "fixed-top" bootstrap class to fix the nav bar to the top of page.
+         BUT, remember to add enough padding to the top of the <body> -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: black;">
+        <img class="headerImage" src="./img/RAPTC logo.png" alt="Logo of the RAPTC"></img>
+        <a class="navbar-brand" href="./Home.html">Mental Resilience Training RAPTC</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./Home.html">Home</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navbarDropdownMenuLink"
+                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        8 Pillars of MRT
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"
+                        style="color: white; background-color: rgb(128, 128, 128);">
+                        <li><a class="dropdown-item" href="./8 Pillars overview.html">Overview</a></li>
+                        <li><a class="dropdown-item" href="./8 Pillars overview.html#section-1">Social Support & Unit
+                                Cohesion</a></li>
+                        <li><a class="dropdown-item" href="./8 Pillars overview.html#section-2">Emotional control</a>
+                        </li>
+                        <li><a class="dropdown-item" href="./8 Pillars overview.html#section-3">Mindset control</a></li>
+                        <li><a class="dropdown-item" href="./8 Pillars overview.html#section-4">Purpose & Motivation</a>
+                        </li>
+                        <li><a class="dropdown-item" href="./8 Pillars overview.html#section-5">Leadership</a></li>
+                        <li><a class="dropdown-item" href="./8 Pillars overview.html#section-6">Facilitative
+                                Environment</a></li>
+                        <li><a class="dropdown-item" href="./8 Pillars overview.html#section-7">Self-Belief &
+                                Confidence</a></li>
+                        <li><a class="dropdown-item" href="./8 Pillars overview.html#section-8">Coping Strategies</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navbarDropdownMenuLink"
+                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Psych Skills Training
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"
+                        style="color: white; background-color: rgb(128, 128, 128);">
+                        <li><a class="dropdown-item" href="./PST.html#section-1">Overview</a></li>
+                        <li><a class="dropdown-item" href="./PST.html#section-2">Motivation</a></li>
+                        <li><a class="dropdown-item" href="./PST.html#section-3">Arousal regulation</a></li>
+                        <li><a class="dropdown-item" href="./PST.html#section-4">Self-efficacy</a></li>
+                        <li><a class="dropdown-item" href="./PST.html#section-5">Imagery</a></li>
+                        <li><a class="dropdown-item" href="./PST.html#section-6">Goal Setting</a></li>
+                        <li><a class="dropdown-item" href="./PST.html#section-7">Focus regulation</a></li>
+                        <li><a class="dropdown-item" href="./PST.html#section-8">Relaxation</a></li>
+                        <li><a class="dropdown-item" href="./PST.html#section-9">Self-talk</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Resources.html">Resources</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Contact.html">Contact us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- ==== END NAV BAR ===== -->
+
+    <main>
+        <div>
+            <img class="RAPTC" src="./img/PST.png" alt="Figure of the PST">
+        </div>
+
+        <div class="container" id="section-1">
+            <h2>Overview</h2>
+            <p>
+                Psychological skills training (PST) is the <span style="font-weight: bold; color: red;">“systematic and
+                    consistent practice of mental or
+                    psychological skills for the purpose of enhancing performance, increasing enjoyment, or achieving
+                    greater sport or physical satisfaction”</span>. PST tends to be
+                neglected because of myths built around it such as: it is from problem individuals only, elite athletes
+                only, quick fix solution and it isn’t useful. PST helps <span
+                    style="font-weight: bold; color: red;">increase all eight pillars of MRT</span>. Multiple
+                studies have found that PST has a<span style="font-weight: bold;">positive effect on performance</span>.
+                There are four steps to the
+                implementation of a
+                PST program: <span style="font-weight: bold;">education phase</span>, <span
+                    style="font-weight: bold;">acquisition phase</span>, <span style="font-weight: bold;">practice
+                    phase</span> and <span style="font-weight: bold;">self-regulation phase</span>.
+            </p>
+            <p>
+                The US Olympic committee gave top 10 principles for PST (these are relavant fro the RAPTC):
+            <ol>
+                <li>Mental training <span style="font-weight: bold;">can’t replace</span> physical training</li>
+                <li>Physical training and physical ability <span style="font-weight: bold;">alone</span> are <span
+                        style="font-weight: bold;">not enough</span> to succeed consistently at elite levels
+                </li>
+                <li>A strong mind may not win an Olympic medal but a <span style="font-weight: bold;">weak one will
+                        lose</span> it</li>
+                <li>Coaches/Instructors will not frequently know what their athletes are thinking</li>
+                <li><span style="font-weight: bold;">Thoughts affect behaviour</span>, therefore consistent thoughts
+                    will result in consistent behaviour</li>
+                <li>Coaches have a different view of changing technical mistakes vs mental mistakes</li>
+                <li>Coaches must be <span style="font-weight: bold; color: red;">involved</span> in the psychological/
+                    mental training</li>
+                <li>There is a need to force athletes to put time and effort into mental training</li>
+                <li>Mental skills should be measured in order to maximise performance</li>
+                <li>Coaches need to think about <span style="font-weight: bold;">their own mental skills</span> </li>
+            </ol>
+            </p>
+            <p>
+                A randomised control study found that between a control group of soldiers receiving no mental training
+                and a group of soldiers receiving psychological skills training, the latter reported a <span
+                    style="font-weight: bold;">greater use of
+                    cognitive skills</span>, <span style="font-weight: bold;">increased self-belief</span> and <span
+                    style="font-weight: bold;">performed significantly better</span> on a range of different
+                military task including the fitness related tasks
+            </p>
+            <p>
+                The below sections will give you more information on each psychological skill.
+            </p>
+        </div>
+
+        <hr>
+
+        <div class="container" id="section-2">
+            <h2>Motivation</h2>
+            <p>
+                Motivation is the <span style="font-weight: bold; color: red;">ability to initiate and persist at a
+                    task</span>.
+            </p>
+            <p>
+                Positive motivation can be attained through the satisfaction of three psychological needs:
+            <ul>
+                <li><span style="font-weight: bold;">Autonomy</span>: feeling empowered and having a choice.
+                </li>
+                <li><span style="font-weight: bold;">Competence</span>: Feeling capable and effective.
+                </li>
+                <li><span style="font-weight: bold;">Competence</span>: Feeling valued by- and close to- others.
+                </li>
+            </ul>
+            </p>
+        </div>
+
+        <hr>
+
+        <div class="container" id="section-3">
+            <h2>Arousal Regulation</h2>
+            <p>
+                Arousal is a <span style="font-weight: bold; color: red;">“state of physiological and psychological
+                    activation that varies on a continuum from deep
+                    sleep to intense excitement”</span>. Anxiety is a “negative emotional state characterised by
+                feelings of
+                nervousness and worry associated with activation or arousal of the body (e.g.: becoming nervous from
+                increased heart rate)”.
+                Arousal influences performance, it can increase muscle tension and coordination difficulties, it can
+                also impact attention and concentration.
+            </p>
+            <p>
+                There are many arousal regulation techniques, there are two types: <span
+                    style="font-weight: bold;">techniques to reduce arousal</span> and
+                <span style="font-weight: bold;">techniques to increase arousal</span>. This is an arousal reducing
+                technique:
+            <ul>
+                <li><span style="font-weight: bold;">Breathing techniques</span>: it is one of the easiest and most
+                    effective ways to control anxiety and muscle
+                    tension. Observing someone’s breathing gives information on their state of arousal. If someone is
+                    calm, confident and in control their breathing will be smooth, deep and rhythmical. When someone is
+                    under pressure and tense, their breathing will be short, shallow, and irregular.</li>
+            </ul>
+            </p>
+            <p>
+                However, not all physical and mental tension is negative and not all of it should be eliminated. Small
+                amounts of tension are desirable when a state of alertness and attentiveness is required. These are a
+                few
+                signs of under-arousal: moving slowly, easily distracted, lack of concern about performance, lack of
+                enthusiasm and anticipation and heavy legs. The following techniques are used to enhance/induce arousal:
+            <ul>
+                <li><span style="font-weight: bold;">Increase breathing rate</span></li>
+                <li><span style="font-weight: bold;">Act energised</span></li>
+                <li><span style="font-weight: bold;">Listen to music</span></li>
+            </ul>
+            </p>
+        </div>
+
+        <hr>
+
+        <div class="container" id="section-4">
+            <h2>Self-efficacy</h2>
+            <p>
+                Self-efficacy also known as <span style="font-weight: bold;">self-confidence</span> is <span
+                    style="font-weight: bold; color: red;">the degree of certainty one possesses about their ability
+                    to be successful</span>. There are multiple positive effects of self-confidence: it <span
+                    style="font-weight: bold;">arouses positive
+                    emotions</span>, <span style="font-weight: bold;">facilitates concentration</span>, <span
+                    style="font-weight: bold;">positively
+                    affects goals</span>, <span style="font-weight: bold;">increases effort</span>, <span
+                    style="font-weight: bold;">positively affects psychological momentum</span>
+                . If an individual lacks necessary skill, has insufficient motivation, or the task
+                is ambiguous, then self-efficacy will not lead to desired performance. However, if someone has the
+                skills and motivation, then <span style="font-weight: bold;"> self-efficacy is a robust predictor of
+                    performance</span>.
+            </p>
+            <p>
+                Self-confidence is influenced by the following:
+            <ul>
+                <li><span style="font-weight: bold; color: red;">Performance accomplishments</span> "<span
+                        style="font-weight: bold;">I have done it before so I can do it
+                        again</span>" <br>
+                    Past performance accomplishments have the most impact on one's self-confidence when an individual
+                    successfully completes a difficult task without external assistance or experiences rare failure.
+                </li>
+                <li><span style="font-weight: bold; color: red;">Vicarious experiences</span>: "<span
+                        style="font-weight: bold;">If she can do it, I can do it</span>" <br>
+                    It is important to watch others perform the task or skill that one is trying to learn. This will
+                    work if the skills and attributes fo the performers are very similar.
+                </li>
+                <li><span style="font-weight: bold; color: red;">Persuasion</span>: "<span style="font-weight: bold;">I
+                        know you are a good athlete</span>" <br>
+                    Techniques for persuasion include verbal persuasion, evaluative feedback, expectations from others
+                    and self-talk. Persuasion needs to be used with other techniques; it is harder to instil strong
+                    self-efficacy beliefs with only persuasion techniques.
+                </li>
+                <li><span style="font-weight: bold; color: red;">Physiological states</span>: "<span
+                        style="font-weight: bold;">My fast heart-beat signifies
+                        excitement</span>"<br>
+                    The individual’s perception of their own physiological state has an important impact on their
+                    self-efficacy.
+                </li>
+            </ul>
+            </p>
+
+            <hr>
+
+            <div class="container" id="section-5">
+                <h2>Imagery</h2>
+                <p>
+                    <span style="font-weight: bold; color: red;">Imagery also known as visualisation or mental practice
+                        involves creating or recreating an experience
+                        in one’s mind, using all the senses as well as moods and emotions</span>. <br>
+                    Why practice imagery ? These are its <span style="font-weight: bold;">positive outcomes</span>:
+                <ul>
+                    <li>Improve concentration</li>
+                    <li>Increase and build confidence</li>
+                    <li>Emotional control</li>
+                    <li>Acquire and practice certain skills and strategies</li>
+                    <li>Cope with pain and injury</li>
+                    <li>Solve strategy, technique or psychological problems</li>
+                </ul>
+                </p>
+                <p>
+                    <span style="font-weight: bold; color: blueviolet;">P</span><span
+                        style="font-weight: bold; color: rgb(26, 28, 161);">E</span><span
+                        style="font-weight: bold; color: rgb(43, 153, 226);">T</span><span
+                        style="font-weight: bold; color: rgb(43, 226, 150);">T</span><span
+                        style="font-weight: bold; color: rgb(58, 226, 43);">L</span><span
+                        style="font-weight: bold; color: rgb(226, 162, 43);">E</span><span
+                        style="font-weight: bold; color: rgb(226, 49, 43);">P</span> is a good model to implement
+                    imagery:
+                <ul>
+                    <li><span style="font-weight: bold; color: blueviolet;">P</span>hysical: Image the relevant physical
+                        characteristics e.g., a soldier with their kit</li>
+                    <li><span style="font-weight: bold; color: rgb(26, 28, 161);">E</span>nvironment: Relevant details
+                        of the environment need to be included in the imagery process e.g., warfare noise </li>
+                    <li><span style="font-weight: bold; color: rgb(43, 153, 226);">T</span>ask: Image the details
+                        relevant to the task and the level so that the attentional demands and situation changes are the
+                        same in the imaged and actual situation</li>
+                    <li><span style="font-weight: bold; color: rgb(43, 226, 150);">T</span>iming: Image in real time,
+                        but "slow/fast motion" can be used to emphasise different skills</li>
+                    <li><span style="font-weight: bold; color: rgb(58, 226, 43);">L</span>earning: The imagery should
+                        evolve and adapt with learnign and practice</li>
+                    <li><span style="font-weight: bold; color: rgb(226, 162, 43);">E</span>motion: The same emotions
+                        experienced during the physical experience should be included in the imaging</li>
+                    <li><span style="font-weight: bold; color: rgb(226, 49, 43);">P</span>erspective: either internal
+                        (through your eyes) or external (through someone else's eyes)</li>
+                </ul>
+                </p>
+
+                <hr>
+
+                <div class="container" id="section-6">
+                    <h2>Goal Setting</h2>
+                    <p>
+                        There are <span style="font-weight: bold;">3 types of goals</span>:
+                    <ul>
+                        <li><span style="font-weight: bold;">Outcome goals</span> focus on a result and should
+                            facilitate short-term motivation BUT can increase
+                            anxiety and distracting thoughts e.g., "I want to get into the RAPTC; therefore, I have to
+                            pass the selection course and be one of the best".
+                        </li>
+                        <li><span style="font-weight: bold;">Performance goals</span> focus on achieving standards or
+                            performance objectives without considering
+                            competitiors e.g., "I need to pass the RFTS to stay on the course".
+                        </li>
+                        <li><span style="font-weight: bold;">Process goals</span> focus on the actions needed to perform
+                            well e.g., "I need to have good
+                            technique while doing the deadlift to do it successfully".
+                        </li>
+                    </ul>
+                    Process and performance goals can make more precise adjustments to goals and depend less on
+                    others' behaviours.
+                    </p>
+                    <p>
+                        <span style="font-weight: bold;">FUNDAMENTAL</span> aspects of Goal Setting: <br>
+                        <span style="font-weight: bold;">Difficult goals</span> lead to <span
+                            style="font-weight: bold;">higher levels of performance</span> than easier goals and
+                        <span style="font-weight: bold;">specific goals</span> lead
+                        to <span style="font-weight: bold;">higher levels of performance</span> than vague goals. <br>
+                        <span style="font-weight: bold;">Short term goals</span> are <span
+                            style="font-weight: bold;">more effective</span> than long term goals: they offer more
+                        opportunities to
+                        assess/correct. <span style="font-weight: bold; color: red;">Long term goals should be used with
+                            short term goals to mark progress</span>.
+                    </p>
+                    <p>
+                        Set <span style="font-weight: bold; color: rgb(43, 153, 226);">S</span><span
+                            style="font-weight: bold; color: rgb(43, 226, 150);">M</span><span
+                            style="font-weight: bold; color: rgb(58, 226, 43);">A</span><span
+                            style="font-weight: bold; color: rgb(226, 162, 43);">R</span><span
+                            style="font-weight: bold; color: rgb(226, 49, 43);">T</span> goals:
+                    <ul>
+                        <li><span style="font-weight: bold; color: rgb(43, 153, 226);">S</span>pecific (What do you want
+                            to do?)</li>
+                        <li><span style="font-weight: bold; color: rgb(43, 226, 150);">M</span>easurable (How will you
+                            know when
+                            you've reached it?)</li>
+                        <li><span style="font-weight: bold; color: rgb(58, 226, 43);">A</span>chievable (Is it in your
+                            power to accomplish it?)</li>
+                        <li><span style="font-weight: bold; color: rgb(226, 162, 43);">R</span>ealistic: (Can you
+                            realistically achieve it ?)</li>
+                        <li><span style="font-weight: bold; color: rgb(226, 49, 43);">T</span>imely: (When do you want
+                            to accomplish it?)</li>
+                    </ul>
+                    </p>
+
+                    <hr>
+
+                    <div class="container" id="section-7">
+                        <h2>Focus regulation</h2>
+                        <p>
+                            <span style="font-weight: bold; color: red;">Improving attention is necessary for optimal
+                                performance</span>. There are multiple different
+                            techniques to promote concentration, combat lapses of attention and avoid distractions.
+                        </p>
+                        <p>
+                            To improve concentration skills, it is important for individual to learn how to “park” their
+                            intruding thoughts, learn to maintain focus, rehearse concentration in high-pressured
+                            environments and learn to shift their attention.
+                        </p>
+                        <p>
+                            Dealing with pain or discomfort from PT:
+                        <ul>
+                            <li><span style="font-weight: bold;">Dissociative strategy</span>: distracting one’s
+                                attention from pain and discomfort
+                                by focusing on external factors e.g., listening to music, concentrating on one’s
+                                surroundings.
+                            </li>
+                            <li><span style="font-weight: bold;">Associative strategy</span>: focusing on the
+                                information from own body and monitoring the pain. It is about fraternising with
+                                pain/discomfort and understanding how to increase one’s tolerance to it.
+                            </li>
+                        </ul>
+                        </p>
+
+                        <hr>
+
+                        <div class="container" id="section-8">
+                            <h2>Relaxation</h2>
+                            <p>
+                                <span style="font-weight: bold; color: red;">Being relaxed is a key characteristic of
+                                    peak performance</span>.
+                                There are 3 types of relaxation: physical, mental and multimodal:
+                            <ul>
+                                <li><span style="font-weight: bold;">Physical relaxation</span>: Progressive muscle
+                                    relaxation is used to relieve muscle tension. Decreased muscle tension will lead to
+                                    decreased mental tension. It is a systematic focus of attention on the various gross
+                                    muscle groups throughout the body.
+                                </li>
+                                <li><span style="font-weight: bold;">Mental relaxation</span>: Mental relaxation can be
+                                    obtained by using a technique known as transcendental meditation, it is associated
+                                    with slower heart rate, lower blood pressure and decreased responsivity of the
+                                    sympathetic nervous system. </li>
+                                <li><span style="font-weight: bold;">Multimodal relaxation</span>: Both physical and
+                                    mental relaxation, these techniques deal with both types of anxiety
+                                    simultaneously.
+                                </li>
+                            </ul>
+                            </p>
+
+                            <hr>
+
+                            <div class="container" id="section-9">
+                                <h2>Self-talk</h2>
+                                <p>
+                                    <span style="font-weight: bold; color: red;">Self-talk is described as the act of
+                                        talking to oneself, aloud or silently</span>.
+                                    Self-talk has many potential uses such as <span style="font-weight: bold;">enhancing
+                                        concentration, breaking bad habits, stopping negative thoughts, staying
+                                        motivated, sustaining effort, enhancing self-confidence</span>
+                                    , … There are different types
+                                    of self-talk: <span style="font-weight: bold;">positive</span> (motivational), <span
+                                        style="font-weight: bold;">instructional</span>, <span
+                                        style="font-weight: bold;">negative</span> self-talk or <span
+                                        style="font-weight: bold;">thought stopping</span>
+                                    :
+                                <ul>
+                                    <li><span style="font-weight: bold;">Negative</span>self-talk tends to be associated
+                                        with poor performance. However, negative self-talk can have positive impacts on
+                                        performance when used appropriately (i.e., it can be interpreted as
+                                        motivational, e.g., “a talking to” following a mistake). <br>
+                                        Examples: "That was a stupid shot", "Why are you so bad at this"
+                                    </li>
+                                    <li><span style="font-weight: bold;">Thought-stopping</span>self-talk is useful to
+                                        stop negative thoughts before they harm performance, it is often associated with
+                                        a trigger or a cue work to stop a negative thought and clear mind to refocus on
+                                        a task-related cue. <br>
+                                        Examples: "Stop!", "Not now!", "Focus!"
+                                    </li>
+                                    <li><span style="font-weight: bold;">Positive</span>self-talk can either involve
+                                        motivational elements or substitute negative talk for positive (e.g., I’m going
+                                        to fail -> I can do this). <br>
+                                        Examples: "I can do it", "Just hang on in there a little longer"
+                                    </li>
+                                    <li><span style="font-weight: bold;">Instructional</span>self-talk is used to
+                                        perform a skill as well as possible (e.g., when performing a squat, it is
+                                        important to know all the queues and coaching points and to be able to talk them
+                                        through to oneself). <br>
+                                        "Keep your eyes on the ball", "Push your knees out"
+                                    </li>
+                                </ul>
+                                </p>
+                                <p>
+                                    Guide to self-talk: the 4Ws <br>
+                                    <span style="font-weight: bold;">Where?</span> Training and events <br>
+                                    <span style="font-weight: bold;">When?</span> Pre-event, during event, during
+                                    training <br>
+                                    <span style="font-weight: bold;">Why?</span> Skill execution & development and to
+                                    enhance focus, self-confidence, drive as well as regulate arousal <br>
+                                    <span style="font-weight: bold;">What?</span> Structure, task instruction, nature of
+                                    task
+                                </p>
+
+    </main>
+
+    <footer>
+        <!-- ==== social icons ==== -->
+        <a href="https://www.google.com/maps/place/Royal+Army+Physical+Training+Corps+Association/@51.2637829,-0.7556265,15z/data=!4m2!3m1!1s0x0:0xe8877bfb2727b42d?sa=X&ved=2ahUKEwi7lqDJ_rfvAhVJVhoKHQY7CawQ_BIwCnoECBEQBQ"
+            target="_blank">
+            <span class='social-icon'><i class="fas fa-map-marked-alt"></i></span>
+        </a>
+        <a class="email" href="mailto:joseph.foreshew731@mod.gov.uk" target="_blank">
+            <span class='social-icon'><i class="fas fa-envelope-open-text"></i></i></span>
+        </a>
+        <a href="https://www.instagram.com/royalarmyphysicaltrainingcorps/?hl=fr" target="_blank">
+            <span class='social-icon'><i class="fab fa-instagram"></i></span>
+        </a>
+    </footer>
+
+    <!-- ==== button that scrolls window to the top ==== -->
+    <button class="btn btn-primary" onclick="topFunction()" id="go-top-button" title="Go to top">Top</button>
+
+    <!-- Bootstrap needs the these 3 javascript links for things like carousel and modals to work properly.
+         we also need jQuery for the code for the "scroll to the top" code in scripts.js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- our custom javascript -->
+    <script src="./js/scripts.js"></script>
+</body>
+
+</html>
